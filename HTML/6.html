@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <center>
+        <h1><u>Registration Form</u></h1>
+        <table border="2">
+            <tr>
+                <td>
+                    <form>
+                        <label for="fname">Name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Branch:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+                        <label for="lname">Roll:</label><br>
+                        <input type="number" id="number" name="number" size="10"><br>
+                        <p>Gender:
+                            <input type="radio" id="male" name="gender" value="Male">
+                            <label for="html">Male</label>
+                            <input type="radio" id="female" name="gender" value="Female">
+                            <label for="css">Female</label><br>
+                        </p>
+                        <p>Intents:
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1">Playing</label>
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2">Singing</label>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3">Others</label><br>
+                        </p>
+                        <p>Qualifications:</p><br>
+                        <input list="Qualifications">
+                        <datalist id="Qualifications">
+                            <option value="10th">
+                            <option value="12th">
+                            <option value="B.Tech">
+                        </datalist>
+                        <p>
+                            Comments:<br>
+                            <textarea name="message" rows="10" cols="30"></textarea>
+                        </p>
+                        <input type="reset">
+                        </form><br>
+
+                    <a href="http://127.0.0.1:5501/.vscode/webt/7.html">
+                        <button>Submit</button></a><br>
+                    
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>

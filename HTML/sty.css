@@ -1,0 +1,23 @@
+body{
+    background-color:skyblue;
+    font-family: cursive;
+}
+h1{
+    color:rgb(8, 8, 8);
+    text-align: center;
+}
+h2,h3{
+    color:black;
+}
+ul{
+    color:black;
+}
+p{
+    color:aliceblue;
+}
+table{
+    color:aliceblue;
+}
+a{
+    color:aliceblue;
+}
